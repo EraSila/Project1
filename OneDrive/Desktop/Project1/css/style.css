@@ -1,0 +1,91 @@
+.title{
+color:red;
+}
+
+.subtitle{
+  color:blue;
+}
+#contact-us{
+  color:green;
+}
+
+body{
+  background-color: blanchedalmond;
+  background-image: url(../img/img-3.jpg);
+
+  background-size:cover ;
+  background-repeat: no-repeat ;
+     
+h2{
+  color:red
+}
+.about-me{
+  color:burlywood
+}
+.subtitle{
+  color: aquamarine;
+}
+#services{
+  color:wheat
+}
+h2:hover{
+  color:red;
+}
+
+/*li:first-child{
+  color:steelblue;
+}
+li:last-child{
+  color:brown;
+}
+li:nth-child(2){
+  color:goldenrod;
+}
+
+li:only-child{
+  color:purple
+}
+td:only-child{
+  color:black;
+}*/
+
+/*#google-link:link {
+  color:blue;
+}
+
+#google-link:visited {
+    color:red;
+}*/
+
+h2 + a {
+  color:red;
+}
+
+textarea ~ button {
+color:purple;
+}
+ul>li{
+  color:blue;
+}
+
+ul li{
+  color:green
+};
+h2[attr=value]
+h2[class=subtitle]{
+  color:yellow
+}
+img[src^="../img/"]{
+  border:10px solid black;
+}
+
+h2[class~=article-subtitle]{
+  background-color: blueviolet;
+}
+
+selector{
+ property:value;
+ property2:value2;
+}
+
+
